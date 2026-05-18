@@ -4,8 +4,8 @@
   place-items: center;
   background:
     radial-gradient(1000px 500px at 10% 10%, rgba(124,58,237,.18), transparent 60%),
-    radial-gradient(900px 500px at 90% 90%, rgba(6,182,212,.16), transparent 60%),
-    #0b1020;
+    radial-gradient(900px 500px at 90% 90%, rgba(49, 166, 187, 0.16), transparent 60%),
+    #a87cee;
   padding: 24px;
 }
 
@@ -27,7 +27,8 @@
 .login-form .form-group { margin-bottom: 18px; }
 .login-form label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; color: var(--text); }
 .login-form input[type="email"],
-.login-form input[type="password"] {
+.login-form input[type="password"]
+ {
   width: 100%;
   padding: 12px 14px;
   border-radius: 10px;
@@ -75,3 +76,4 @@
   .login-art { display: none; }
   .login-card { padding: 36px 28px; }
 }
+
